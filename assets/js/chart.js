@@ -34,4 +34,3 @@ let myChart = new Chart(ctx, {
         }
     }
 });
-console.log(myChart);
