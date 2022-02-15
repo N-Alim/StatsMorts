@@ -15,14 +15,8 @@ let myChart = new Chart(ctx, {
         datasets: [{
             label: 'Number of deaths in 2010',
             data:values[2010],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-
-            ],
+            backgroundColor: ['rgba(255, 99, 132, 0.2)'],
+            borderColor: ['rgba(255, 99, 132, 1)'],
             borderWidth: 2
         }]
     },
